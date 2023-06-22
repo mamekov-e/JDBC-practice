@@ -5,6 +5,9 @@ target/
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
+.idea/dataSources.xml
+.idea/inspectionProfiles/
+.idea/uiDesigner.xml
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
