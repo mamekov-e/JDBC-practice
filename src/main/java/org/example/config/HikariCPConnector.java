@@ -51,9 +51,9 @@ public class HikariCPConnector {
         int poolSize = Integer.parseInt(ConfPropertiesUtil.getValue("poolSize"));
         hikariConfig.setMaximumPoolSize(poolSize);
         // set connection timeout
-        hikariConfig.setConnectionTimeout(Duration.ofSeconds(20).toMillis());
+//        hikariConfig.setConnectionTimeout(Duration.ofSeconds(20).toMillis());
         // set max time connection sit in pool
-        hikariConfig.setIdleTimeout(Duration.ofMinutes(1).toMillis());
+//        hikariConfig.setIdleTimeout(Duration.ofMinutes(1).toMillis());
 
         return hikariConfig;
     }
